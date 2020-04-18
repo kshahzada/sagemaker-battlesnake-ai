@@ -129,7 +129,7 @@ if __name__ == "__main__":
                         help='Number of espidoes (default: 100000)')
     parser.add_argument('--max_t', type=int, default=1000,
                         help='Max t (default: 1k)')
-    parser.add_argument('--eps_start', type=float, default=1.0,
+    parser.add_argument('--eps_start', type=float, default=1,
                         help='Episilon start (default: 1.0)')
     parser.add_argument('--eps_end', type=float, default=0.01,
                         help='Episilon end (default: 0.01)')
